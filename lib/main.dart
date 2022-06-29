@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:umer_ui/Views/animation_slide.dart';
 import 'package:umer_ui/Views/authentication.dart';
 import 'package:umer_ui/Views/last_pages.dart';
+import 'package:umer_ui/Views/login_signup.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LastPage(),
+      home: MyHomePage(),
     );
   }
 }

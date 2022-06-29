@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:umer_ui/Views/home_page.dart';
 import 'package:umer_ui/Views/photo_vault.dart';
 
 class LoginSignup extends StatefulWidget {
@@ -156,7 +157,7 @@ class _LoginSignupState extends State<LoginSignup> {
                                                 context,
                                                 MaterialPageRoute(
                                                     builder: (context) =>
-                                                        PhotoVault()));
+                                                        HomePage()));
                                           },
                                           child: Text(
                                             'Log In',
